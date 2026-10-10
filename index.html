@@ -24,24 +24,49 @@
             padding: 40px;
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            position: relative;
+            text-align: left;
+        }
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
         }
         h1 {
             color: #4caf50;
+            margin-top: 0;
             margin-bottom: 20px;
             font-size: 2.5rem;
+            max-width: 75%;
         }
         p {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             line-height: 1.6;
             color: #e0e0e0;
+            margin-bottom: 15px;
+        }
+        .highlight {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #ff9800;
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <!-- Replace 'logo.png' with your actual uploaded image file name later -->
+        <img class="logo" src="logo.png" alt="Faboozy Logo">
+        
         <h1>Welcome to Faboozy!</h1>
-        <p>This medicine is the only thing that can help you!</p>
-        <p>We at Faboozy are real doctors (trust).</p>
+        <p class="highlight">This medicine is the only thing that can help you! We at Faboozy are real doctors (trust).</p>
+        
+        <p>At Faboozy, we are dedicated to exploring creative solutions and building unique spaces on the web. Our mission is to combine innovation, technology, and design to bring fresh ideas to life. Whether you are exploring our latest digital projects, learning more about what we do, or just stopping by to say hello, we are glad to have you here.</p>
+        
+        <p>Thank you for visiting our official free website layout, built entirely with custom code and hosted safely right here on GitHub Pages. Stay tuned for more updates as we continue to grow and expand our features!</p>
     </div>
 </body>
 </html>
